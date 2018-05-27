@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cirno", "src\Cirno\Cirno.csproj", "{824C4FD1-4D74-4DE2-946D-0F5AC6BE9803}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{90F918A6-40AC-4DED-9835-3D9B62F6ED84}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cirno.SampleApp", "samples\Cirno.SampleApp\Cirno.SampleApp.csproj", "{5EE15E88-F016-47EE-BBCB-49BE77E65A2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cirno.DotNetty", "src\Cirno.DotNetty\Cirno.DotNetty.csproj", "{3CD512A7-798D-47B3-A362-E8968DD82D87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{824C4FD1-4D74-4DE2-946D-0F5AC6BE9803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824C4FD1-4D74-4DE2-946D-0F5AC6BE9803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824C4FD1-4D74-4DE2-946D-0F5AC6BE9803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824C4FD1-4D74-4DE2-946D-0F5AC6BE9803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE15E88-F016-47EE-BBCB-49BE77E65A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE15E88-F016-47EE-BBCB-49BE77E65A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE15E88-F016-47EE-BBCB-49BE77E65A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE15E88-F016-47EE-BBCB-49BE77E65A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD512A7-798D-47B3-A362-E8968DD82D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD512A7-798D-47B3-A362-E8968DD82D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD512A7-798D-47B3-A362-E8968DD82D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD512A7-798D-47B3-A362-E8968DD82D87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E639688-A001-405C-A69F-1A7B894A44EB}
+	EndGlobalSection
+EndGlobal
